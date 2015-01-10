@@ -1,0 +1,33 @@
+{
+  "name": "quick-sell",
+  "version": "0.0.1",
+  "description": "An online store for advertising used products",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^0.4.0",
+    "express": "^4.10.7",
+    "gulp": "^3.8.10",
+    "gulp-bower": "^0.0.7",
+    "gulp-concat": "^2.4.3",
+    "gulp-jshint": "^1.9.0",
+    "angular": "^1.3.8",
+    "gulp-nodemon": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andela-Kshittu/quick-sell.git"
+  },
+  "keywords": [
+    "quick-sell"
+  ],
+  "author": "Kehesjay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-Kshittu/quick-sell/issues"
+  },
+  "homepage": "https://github.com/andela-Kshittu/quick-sell"
+}
