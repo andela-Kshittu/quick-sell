@@ -1,9 +1,8 @@
-html
+doctype html
+html(lang='en' data-ng-app="quicksell")
 	head
-		title Quick Sell
-		script(type="text/javascript" src="/lib/angular/angular.js")
-		script(type="text/javascript" src="/lib/angular-ui-router/release/angular-ui-router.js")
-		script(type="text/javascript" src="/js/index.js")
+		title Sell It
+		include views/shared/head
 	body
-		div(data-ng-app="quicksell")
-			p Welcome to Quick Sell, This the very beginning
+		include views/shared/header
+		div(ui-view)

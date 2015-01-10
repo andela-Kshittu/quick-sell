@@ -1,29 +1,37 @@
 {
-  "name": "quick-sell",
-  "main": "index.js",
-  "version": "0.0.1",
-  "authors": [
-    "andela-Kshittu <she2_adex@yahoo.com>"
-  ],
-  "description": "An online store for advertising used products",
-  "keywords": [
-    "quick",
-    "sell",
-    "profit",
-    "buy",
-    "cheap",
-    "fast",
-    "sales"
-  ],
-  "license": "Kehesjay",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "angular": "~1.3.8"
-  }
+    "name": "sell-it",
+    "main": "index.js",
+    "version": "0.0.1",
+    "authors": [
+        "andela-Kshittu <she2_adex@yahoo.com>"
+    ],
+    "description": "An online store for advertising used products",
+    "keywords": [
+        "quick",
+        "sell",
+        "profit",
+        "buy",
+        "cheap",
+        "fast",
+        "sales"
+    ],
+    "license": "Kehesjay",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "angular": "~1.3.8",
+        "firebase": "~2.1.0"
+    },
+    "resolutions": {
+        "angular": "1.3.6",
+        "firebase": "2.0.x"
+    },
+    "devDependencies": {
+        "angular-ui-router": "~0.2.13"
+    }
 }
