@@ -4,6 +4,7 @@ var jshint = require('gulp-jshint');
 var concat = require('gulp-concat');
 var bower = require('gulp-bower');
 var jade = require('gulp-jade');
+var watch = require('gulp-watch');
 
 var paths = {
 	jade: 'app/**/*.jade',
@@ -46,6 +47,13 @@ gulp.task('server', function() {
             console.log('server restarted')
         })
 });
+
+gulp.task('watch', function() {
+  gulp.watch(paths.js,['concat']);
+  gulp.watch(paths.jade, ['jade']);
+});
+
+
 
 gulp.task('build',['jshint','jade','concat','bower']);
 gulp.task('default', ['server','build']);

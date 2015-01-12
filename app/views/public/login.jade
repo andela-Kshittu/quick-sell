@@ -1,0 +1,10 @@
+h3 Login / Sign Up
+form
+	label Email
+	input(type='text' data-ng-model='user.email' placeholder='Enter email')
+	br
+	label Password
+	input(type='Password' data-ng-model='user.password' placeholder='Enter Password')
+	br
+	button(data-ng-click='createUser(user)') Create Account &nbsp;
+	button(data-ng-click='login(user)') Login

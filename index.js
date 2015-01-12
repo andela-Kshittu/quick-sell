@@ -10,6 +10,10 @@ var server = app.listen(process.env.PORT || 8080, function() {
     console.log('Listening on port :', server.address().port)
 });
 
+app.use(function(req, res, next) {
+    res.cookie('rootRef', 'https://sellit-dev.firebaseio.com/');
+    next();
+});
 app.use(express.static(app.dir + '/public'));
 
 app.get('/*', function(req, res) {
